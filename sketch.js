@@ -86,6 +86,11 @@ function draw() {
     textSize(32);
     text(chosen.join(" "), windowWidth / 2, windowHeight / 2 + 40);
     zapiszLiczba2(chosen.join(''));
+    t++;
+    if(t==20){
+      window.location.href = 'https://nelahryniak.github.io/Scam_7/'
+      print('go');
+    }
     return;
   }
 
