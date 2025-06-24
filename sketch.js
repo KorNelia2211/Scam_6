@@ -99,7 +99,7 @@ function draw() {
     t++;
     if(t==20){
       window.location.href = 'https://nelahryniak.github.io/Scam_7/'
-      pro
+      print('go');
     }
     return;
   }
