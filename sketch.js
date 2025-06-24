@@ -11,7 +11,8 @@ let timeOver = false;
 let restartDelay = 2000;
 let restartTime = null;
 let database;
-
+let firebaseConfig;
+let t = 0;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
@@ -19,6 +20,15 @@ function setup() {
   rectMode(CENTER);
   textSize(16);
   
+  firebaseConfig = {
+  apiKey: "AIzaSyA1jvrzvxclRkIuum9esmOfoXdPHKRY8FY",
+  authDomain: "scam-2b8b2.firebaseapp.com",
+  projectId: "scam-2b8b2",
+  storageBucket: "scam-2b8b2.firebasestorage.app",
+  messagingSenderId: "687137609047",
+  appId: "1:687137609047:web:1b186a62144c3e9b969a12",
+    databaseURL:"https://scam-2b8b2-default-rtdb.europe-west1.firebasedatabase.app/"
+};
 
   firebase.initializeApp(firebaseConfig);
  database = firebase.database();
@@ -89,7 +99,7 @@ function draw() {
     t++;
     if(t==20){
       window.location.href = 'https://nelahryniak.github.io/Scam_7/'
-      print('go');
+      pro
     }
     return;
   }
