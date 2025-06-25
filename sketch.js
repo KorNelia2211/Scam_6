@@ -98,7 +98,7 @@ function draw() {
     zapiszLiczba2(chosen.join(''));
     t++;
     if(t==20){
-      window.location.href = 'https://nelahryniak.github.io/Scam_7/'
+      window.location.href = 'https://nelahryniak.github.io/scam7/'
       print('go');
     }
     return;
